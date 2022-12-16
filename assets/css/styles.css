@@ -149,7 +149,7 @@ img {
 
 .section__title {
     font-size: var(--h1-font-size);
-    color: var(--title-color);
+    /* color: var(--title-color); */
 }
 
 .section__subtitle {
@@ -219,7 +219,7 @@ img {
 @media screen and (max-width: 767px) {
     .nav__menu {
         position: fixed;
-        bottom: -100rem;
+        bottom: -100%;
         left: 0;
         width: 100%;
         background-color: var(--body-color);
@@ -301,12 +301,12 @@ img {
 
 .home__social {
     display: grid;
-    grid-template-columns: min-content;
+    grid-template-columns: max-content;
     row-gap: 1rem;
 }
 
 .home__social-icon {
-    font-size: 2rem;
+    font-size: 1.25rem;
     color: var(--first-color);
 }
 
@@ -321,7 +321,7 @@ img {
 
 .home__blob-img {
     height: 300px;
-    width: 220px;
+    width: 170px;
 }
 
 .home__data {

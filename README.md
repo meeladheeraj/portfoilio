@@ -1,3 +1,3 @@
 # portfoilio
 
-😅😅 for mobile version only
+Now, it is updated. kindly feel free to contact.
